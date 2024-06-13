@@ -1,0 +1,142 @@
+body{
+    margin:0%;
+    padding:0%;
+    background-color: rgb(194, 189, 189);
+}
+nav{
+    display:flex;
+    justify-content:space-between ;
+    background-color: rgb(104, 22, 170);
+    color:white;
+    position:fixed;
+    top:0%;
+    width:100%;
+}
+.logo{
+    display:flex;
+    justify-content:space-between ; 
+}
+nav ul{
+    display:flex;
+    align-items:center;
+    margin-left:50px;
+}
+ul li{
+    list-style: none;
+}
+ul li a{
+    text-decoration: none;
+    margin-inline: 40px;
+    color:white;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.logo{
+    margin-left:13px;
+    font-size:20px;
+}
+ul li a:hover{
+    color: aqua;
+    font-weight: 800;
+}
+.icon{
+    display:none;
+    align-items:center;
+    font-size:30px;
+    margin-left: 400px;
+}
+@media  (max-width:751px){
+    nav ul{
+        display:none;
+    }
+    .icon{ 
+        display:flex;
+        cursor: pointer;
+    }
+    .showData{
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        align-items:center;
+        position:absolute;
+        top:50px;
+        background-color: rgb(136, 41, 139);
+        width:100%;
+        height:300px;
+        gap:15px;
+        padding:0%;
+        text-align:center;
+    }
+}
+@media  (max-width:568px){
+    nav ul{
+        display:none;
+    }
+    .icon{ 
+        display:flex;
+        cursor: pointer;
+        margin-left: 360px;
+    }
+    .showData{
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        align-items:center;
+        position:absolute;
+        top:50px;
+        background-color: rgb(136, 41, 139);
+        width:100%;
+        height:300px;
+        gap:15px;
+        padding:0%;
+        text-align:center;
+    }
+}
+@media  (max-width:472px){
+    nav ul{
+        display:none;
+    }
+    .icon{ 
+        display:flex;
+        cursor: pointer;
+        margin-left: 200px;
+    }
+    .showData{
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        align-items:center;
+        position:absolute;
+        top:50px;
+        background-color: rgb(136, 41, 139);
+        width:100%;
+        height:300px;
+        gap:15px;
+        padding:0%;
+        text-align:center;
+    }
+}
+@media  (max-width:312px){
+    nav ul{
+        display:none;
+    }
+    .icon{ 
+        display:flex;
+        cursor: pointer;
+        margin-left: 100px;
+    }
+    .showData{
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        align-items:center;
+        position:absolute;
+        top:50px;
+        background-color: rgb(136, 41, 139);
+        width:100%;
+        height:300px;
+        gap:15px;
+        padding:0%;
+        text-align:center;
+    }
+}
